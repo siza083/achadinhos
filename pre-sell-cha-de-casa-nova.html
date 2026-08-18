@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Chá de Casa Nova - Entre no Grupo</title>
+<meta name="theme-color" content="#8c1c40">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://connect.facebook.net">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1683010286094385');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1683010286094385&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, #fdeef1 0%, #fdf6f2 100%);
+    color: #2b2b2b;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 28px 16px 60px;
+    min-height: 100%;
+  }
+  .card {
+    width: 100%;
+    max-width: 400px;
+    background: #fffdfc;
+    border-radius: 22px;
+    padding: 28px 22px 26px;
+    box-shadow: 0 10px 30px rgba(140, 28, 64, 0.12);
+    text-align: center;
+  }
+
+  /* Badge (CSS only, no image) */
+  .badge-wrap { position: relative; width: 168px; height: 168px; margin: 0 auto 18px; }
+  .badge-circle {
+    width: 100%; height: 100%; border-radius: 50%;
+    border: 6px dashed #e0355a;
+    background: radial-gradient(circle at 35% 30%, #fff6e6, #ffe2b8 70%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .badge-house { font-size: 64px; line-height: 1; filter: drop-shadow(0 2px 2px rgba(0,0,0,.15)); }
+  .badge-percent {
+    position: absolute; top: 6px; right: 4px;
+    width: 34px; height: 34px; border-radius: 50%;
+    background: #e0355a; color: #fff; font-weight: 800; font-size: 15px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,.2);
+  }
+  .badge-heart { position: absolute; font-size: 20px; }
+  .badge-heart.h1 { top: 10px; left: 6px; transform: rotate(-15deg); }
+  .badge-heart.h2 { bottom: 14px; left: -2px; transform: rotate(10deg); }
+  .badge-ribbon {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) rotate(-5deg);
+    background: #123a4d;
+    border-radius: 10px;
+    padding: 7px 16px;
+    display: flex; flex-direction: column; align-items: center; line-height: 1.05;
+    box-shadow: 0 4px 10px rgba(0,0,0,.28);
+  }
+  .badge-ribbon span { font-weight: 800; font-size: 14px; letter-spacing: 0.5px; white-space: nowrap; }
+  .badge-ribbon .l1 { color: #ff9a4d; }
+  .badge-ribbon .l2 { color: #2dd4bf; }
+  .badge-ribbon .l3 { color: #ff6b81; }
+
+  h1 {
+    font-size: 21px;
+    font-weight: 800;
+    color: #1f1f1f;
+    margin-bottom: 8px;
+    line-height: 1.25;
+  }
+  .subhead {
+    font-size: 14.5px;
+    color: #6b6b6b;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+
+  .benefits { text-align: left; margin-bottom: 20px; }
+  .benefit {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 13px;
+  }
+  .benefit:last-child { margin-bottom: 0; }
+  .benefit-icon {
+    flex: 0 0 auto;
+    width: 34px; height: 34px; border-radius: 50%;
+    background: #8c1c40;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .benefit-text { font-size: 14.5px; color: #333; font-weight: 500; }
+
+  .timer-box {
+    background: #fdf1f0;
+    border: 1px solid #f6d9de;
+    border-radius: 14px;
+    padding: 14px 16px 16px;
+    margin-bottom: 20px;
+  }
+  .timer-label {
+    font-size: 13.5px; color: #b8264f; font-weight: 600;
+    margin-bottom: 6px; line-height: 1.35;
+  }
+  .timer-value {
+    font-size: 36px; font-weight: 800; color: #7a1633;
+    letter-spacing: 1px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cta {
+    display: flex; align-items: center; justify-content: center; gap: 8px;
+    width: 100%;
+    background: #22b14c;
+    background: linear-gradient(180deg, #2bc457, #1fa347);
+    color: #fff;
+    font-size: 16px; font-weight: 800;
+    border: none; border-radius: 40px;
+    padding: 15px 18px;
+    text-decoration: none;
+    box-shadow: 0 8px 18px rgba(34, 177, 76, 0.35);
+    margin-bottom: 16px;
+    transition: transform .08s ease;
+  }
+  .cta:active { transform: scale(0.98); }
+
+  .vagas-row {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; color: #444; font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .vagas-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #e0355a; flex: 0 0 auto;
+  }
+  .progress-track {
+    width: 100%; height: 8px; border-radius: 6px;
+    background: #eee; overflow: hidden; margin-bottom: 14px;
+  }
+  .progress-fill {
+    height: 100%; border-radius: 6px; width: 82%;
+    background: linear-gradient(90deg, #7a1633, #b8264f);
+  }
+
+  .footer-note { font-size: 12.5px; color: #9a9a9a; }
+</style>
+</head>
+<body>
+  <div class="card">
+
+    <div class="badge-wrap">
+      <div class="badge-circle">
+        <div class="badge-heart h1">💗</div>
+        <div class="badge-heart h2">🍃</div>
+        <span class="badge-house">🏠</span>
+        <div class="badge-percent">%</div>
+        <div class="badge-ribbon">
+          <span class="l1">CHÁ</span>
+          <span class="l2">DE CASA</span>
+          <span class="l3">NOVA</span>
+        </div>
+      </div>
+    </div>
+
+    <h1>Participe do nosso Grupo no WhatsApp!</h1>
+    <p class="subhead">ofertas exclusivas para sua casa direto no seu celular!</p>
+
+    <div class="benefits">
+      <div class="benefit">
+        <div class="benefit-icon">🔕</div>
+        <div class="benefit-text">Grupo Silenciado – Não perturba o dia todo</div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">⏰</div>
+        <div class="benefit-text">Ofertas relâmpago em primeira mão</div>
+      </div>
+      <div class="benefit">
+        <div class="benefit-icon">🎁</div>
+        <div class="benefit-text">Achadinhos com até 80% OFF</div>
+      </div>
+    </div>
+
+    <div class="timer-box">
+      <div class="timer-label">⏰ O convite para ENTRAR NO GRUPO tem tempo limitado e acaba em:</div>
+      <div class="timer-value" id="timer">15:00</div>
+    </div>
+
+    <a class="cta" id="ctaBtn" href="https://chat.whatsapp.com/B8Wv3zvEUiF3noWnUg0kTC" target="_blank" rel="noopener">
+      💬 ENTRAR NO GRUPO GRÁTIS
+    </a>
+
+    <div class="vagas-row">
+      <span class="vagas-dot"></span> Últimas 9 vagas
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill"></div>
+    </div>
+
+    <p class="footer-note">É grátis e você pode sair quando quiser</p>
+  </div>
+
+<script>
+  // Contador regressivo — reinicia a cada visita/recarregamento.
+  // Para mudar a duração, ajuste os minutos abaixo (padrão: 15 min).
+  (function () {
+    var totalSeconds = 15 * 60;
+    var el = document.getElementById('timer');
+    function tick() {
+      var m = Math.floor(totalSeconds / 60);
+      var s = totalSeconds % 60;
+      el.textContent = String(m).padStart(2, '0') + ':' + String(s).padStart(2, '0');
+      if (totalSeconds > 0) {
+        totalSeconds--;
+      } else {
+        totalSeconds = 15 * 60; // evita mostrar 00:00 parado; reinicia o ciclo
+      }
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+
+  // Evento de conversão pro Meta Ads ao clicar no botão de entrar no grupo.
+  document.getElementById('ctaBtn').addEventListener('click', function () {
+    if (typeof fbq === 'function') {
+      fbq('track', 'Lead');
+    }
+  });
+</script>
+</body>
+</html>
